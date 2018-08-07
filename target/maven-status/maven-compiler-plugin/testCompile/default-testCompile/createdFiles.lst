@@ -1,0 +1,11 @@
+stepdefinition/slideSplashScreenSD.class
+framework/MobileBasePage$DIRECTION.class
+framework/AllureUtil.class
+framework/TestRunner.class
+framework/LandingPage.class
+framework/FilterPage.class
+stepdefinition/MostActionsSD.class
+framework/SplashScreenPage.class
+framework/AppiumWrapper.class
+framework/MobileBasePage.class
+framework/MobileBasePage$1.class

@@ -1,0 +1,53 @@
+{
+  "hosts" : [ {
+    "title" : "ilirs-MacBook-Pro-2.local",
+    "threads" : [ {
+      "title" : "78444@ilirs-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "681907255303173e",
+        "name" : "Given I am on a splash page of the app",
+        "title" : "Given I am on a splash page of the app",
+        "time" : {
+          "start" : 1533653478852,
+          "stop" : 1533653478854,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "61fb6316cf26026b",
+        "name" : "When I click on Skip button on splash screen",
+        "title" : "When I click on Skip button on splash screen",
+        "time" : {
+          "start" : 1533653479013,
+          "stop" : 1533653479014,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f60b0582922cfdcf",
+        "name" : "When Search for \"Breakfast\"",
+        "title" : "When Search for \"Breakfast\"",
+        "time" : {
+          "start" : 1533653481378,
+          "stop" : 1533653481378,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "82fd6b65b932c8aa",
+        "name" : "Then I verify Event displayed with header, Duration, description",
+        "title" : "Then I verify Event displayed with header, Duration, description",
+        "time" : {
+          "start" : 1533653481950,
+          "stop" : 1533653481961,
+          "duration" : 11
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

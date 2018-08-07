@@ -1,0 +1,53 @@
+{
+  "uid" : "61fb6316cf26026b",
+  "name" : "When I click on Skip button on splash screen",
+  "title" : "When I click on Skip button on splash screen",
+  "time" : {
+    "start" : 1533653479013,
+    "stop" : 1533653479014,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e23ee7e7b8deb99e",
+    "name" : "Verify user should be able to search for event",
+    "title" : "Verify user should be able to search for event"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Verify Home Page Features"
+  }, {
+    "name" : "story",
+    "value" : "Verify user should be able to search for event"
+  }, {
+    "name" : "host",
+    "value" : "ilirs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "78444@ilirs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify user should be able to search for event"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify user should be able to search for event"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}
