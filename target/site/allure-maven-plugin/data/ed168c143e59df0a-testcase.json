@@ -1,11 +1,11 @@
 {
-  "uid" : "82fd6b65b932c8aa",
+  "uid" : "ed168c143e59df0a",
   "name" : "Then I verify Event displayed with header, Duration, description",
   "title" : "Then I verify Event displayed with header, Duration, description",
   "time" : {
-    "start" : 1533653481950,
-    "stop" : 1533653481961,
-    "duration" : 11
+    "start" : 1533665708797,
+    "stop" : 1533665708806,
+    "duration" : 9
   },
   "summary" : {
     "attachments" : 0,
@@ -20,7 +20,7 @@
   "status" : "FAILED",
   "testId" : null,
   "suite" : {
-    "uid" : "e23ee7e7b8deb99e",
+    "uid" : "2ac1141cd16d2c1a",
     "name" : "Verify user should be able to search for event",
     "title" : "Verify user should be able to search for event"
   },
@@ -40,9 +40,6 @@
     "name" : "host",
     "value" : "ilirs-MacBook-Pro-2.local"
   }, {
-    "name" : "thread",
-    "value" : "78444@ilirs-MacBook-Pro-2.local.main(1)"
-  }, {
     "name" : "suite-name",
     "value" : "Verify user should be able to search for event"
   }, {
@@ -51,6 +48,9 @@
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "81987@ilirs-MacBook-Pro-2.local.main(1)"
   } ],
   "parameters" : [ ]
 }

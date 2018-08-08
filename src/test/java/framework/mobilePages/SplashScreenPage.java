@@ -1,9 +1,11 @@
-package framework;
+package framework.mobilePages;
 
+import framework.AppiumWrapper;
+import framework.MobileBasePage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class SplashScreenPage extends MobileBasePage{
+public class SplashScreenPage extends MobileBasePage {
 
     @AndroidFindBy(xpath = "//android.view.View[@content-desc='Welcome to ICA']")
     private MobileElement title;

@@ -1,5 +1,6 @@
-package framework;
+package framework.mobilePages;
 
+import framework.MobileBasePage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 

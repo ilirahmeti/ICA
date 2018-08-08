@@ -10,7 +10,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "beef6eacd042cb8",
+      "uid" : "ed1c0fc7cd57680c",
       "title" : "Verify user should be able to search for event",
       "statistic" : {
         "total" : 4,
@@ -21,46 +21,46 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "681907255303173e",
+        "uid" : "590cc15a62cb5c78",
         "name" : "Given I am on a splash page of the app",
         "title" : "Given I am on a splash page of the app",
         "time" : {
-          "start" : 1533653478852,
-          "stop" : 1533653478854,
+          "start" : 1533665705680,
+          "stop" : 1533665705682,
           "duration" : 2
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "61fb6316cf26026b",
+        "uid" : "cc585ae62b0f015b",
         "name" : "When I click on Skip button on splash screen",
         "title" : "When I click on Skip button on splash screen",
         "time" : {
-          "start" : 1533653479013,
-          "stop" : 1533653479014,
+          "start" : 1533665705838,
+          "stop" : 1533665705839,
           "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "f60b0582922cfdcf",
+        "uid" : "1e28e52f5a5564dc",
         "name" : "When Search for \"Breakfast\"",
         "title" : "When Search for \"Breakfast\"",
         "time" : {
-          "start" : 1533653481378,
-          "stop" : 1533653481378,
-          "duration" : 0
+          "start" : 1533665708246,
+          "stop" : 1533665708247,
+          "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "82fd6b65b932c8aa",
+        "uid" : "ed168c143e59df0a",
         "name" : "Then I verify Event displayed with header, Duration, description",
         "title" : "Then I verify Event displayed with header, Duration, description",
         "time" : {
-          "start" : 1533653481950,
-          "stop" : 1533653481961,
-          "duration" : 11
+          "start" : 1533665708797,
+          "stop" : 1533665708806,
+          "duration" : 9
         },
         "severity" : "NORMAL",
         "status" : "FAILED"

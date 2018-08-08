@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1533653478832" stop="1533653481965" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1533665705669" stop="1533665708809" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Verify user should be able to search for event</name>
     <title>Verify user should be able to search for event</title>
     <test-cases>
-        <test-case start="1533653478852" stop="1533653478854" status="passed">
+        <test-case start="1533665705680" stop="1533665705682" status="passed">
             <name>Given I am on a splash page of the app</name>
             <title>Given I am on a splash page of the app</title>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="ilirs-MacBook-Pro-2.local"/>
-                <label name="thread" value="78444@ilirs-MacBook-Pro-2.local.main(1)"/>
+                <label name="thread" value="81987@ilirs-MacBook-Pro-2.local.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1533653479013" stop="1533653479014" status="passed">
+        <test-case start="1533665705838" stop="1533665705839" status="passed">
             <name>When I click on Skip button on splash screen</name>
             <title>When I click on Skip button on splash screen</title>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="ilirs-MacBook-Pro-2.local"/>
-                <label name="thread" value="78444@ilirs-MacBook-Pro-2.local.main(1)"/>
+                <label name="thread" value="81987@ilirs-MacBook-Pro-2.local.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1533653481378" stop="1533653481378" status="passed">
+        <test-case start="1533665708246" stop="1533665708247" status="passed">
             <name>When Search for "Breakfast"</name>
             <title>When Search for "Breakfast"</title>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="ilirs-MacBook-Pro-2.local"/>
-                <label name="thread" value="78444@ilirs-MacBook-Pro-2.local.main(1)"/>
+                <label name="thread" value="81987@ilirs-MacBook-Pro-2.local.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1533653481950" stop="1533653481961" status="failed">
+        <test-case start="1533665708797" stop="1533665708806" status="failed">
             <name>Then I verify Event displayed with header, Duration, description</name>
             <title>Then I verify Event displayed with header, Duration, description</title>
             <failure>
@@ -52,7 +52,7 @@
             <attachments/>
             <labels>
                 <label name="host" value="ilirs-MacBook-Pro-2.local"/>
-                <label name="thread" value="78444@ilirs-MacBook-Pro-2.local.main(1)"/>
+                <label name="thread" value="81987@ilirs-MacBook-Pro-2.local.main(1)"/>
             </labels>
         </test-case>
     </test-cases>

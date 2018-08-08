@@ -3,8 +3,7 @@ package stepdefinition;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import framework.LandingPage;
-import framework.SplashScreenPage;
+import framework.mobilePages.SplashScreenPage;
 import org.testng.Assert;
 
 public class slideSplashScreenSD {

@@ -1,88 +1,170 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("mostactions.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("darksky.feature");
 formatter.feature({
   "line": 3,
-  "name": "Verify Home Page Features",
+  "name": "HomePage verifications",
   "description": "",
-  "id": "verify-home-page-features",
+  "id": "homepage-verifications",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@mobile-regression"
+      "name": "@regression"
     },
     {
       "line": 1,
-      "name": "@mobile-mostactions"
+      "name": "@Darksky"
+    },
+    {
+      "line": 1,
+      "name": "@web"
     }
   ]
 });
-formatter.scenario({
-  "line": 20,
-  "name": "Verify user should be able to search for event",
+formatter.before({
+  "duration": 4135201978,
+  "status": "passed"
+});
+formatter.background({
+  "line": 5,
+  "name": "Given I am on Darksky home page",
   "description": "",
-  "id": "verify-home-page-features;verify-user-should-be-able-to-search-for-event",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.scenario({
+  "line": 8,
+  "name": "Verify timline is displayed in correct format",
+  "description": "",
+  "id": "homepage-verifications;verify-timline-is-displayed-in-correct-format",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 19,
-      "name": "@mobile-mostactions-3"
+      "line": 7,
+      "name": "@Darksky-1"
     }
   ]
 });
 formatter.step({
-  "line": 21,
-  "name": "I am on a splash page of the app",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 22,
-  "name": "I click on Skip button on splash screen",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 23,
-  "name": "Search for \"Breakfast\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 24,
-  "name": "I verify Event displayed with header, Duration, description",
+  "line": 9,
+  "name": "I verify timeline is displayed with two hours incremented",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MostActionsSD.iAmOnsplashPage()"
+  "location": "DarkskySD.timelieneDisplaysTwoHoursIncrement()"
 });
 formatter.result({
-  "duration": 15850599178,
+  "duration": 517291396,
   "status": "passed"
 });
-formatter.match({
-  "location": "MostActionsSD.clickOnSkip()"
-});
-formatter.result({
-  "duration": 103567755,
+formatter.after({
+  "duration": 3201439134,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
+formatter.before({
+  "duration": 2350391888,
+  "status": "passed"
+});
+formatter.background({
+  "line": 5,
+  "name": "Given I am on Darksky home page",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "Verify individual day temp timeline",
+  "description": "",
+  "id": "homepage-verifications;verify-individual-day-temp-timeline",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "val": "Breakfast",
-      "offset": 12
+      "line": 11,
+      "name": "@Darksky-2"
     }
-  ],
-  "location": "MostActionsSD.searchForBreakfast(String)"
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "I expand todays timeline",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "I verify lowest and highest temp is displayed correctly",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DarkskySD.iExpandTodaysTimeline()"
 });
 formatter.result({
-  "duration": 2360861443,
+  "duration": 466644114,
   "status": "passed"
 });
 formatter.match({
-  "location": "MostActionsSD.iVerifyEventDisplayed()"
+  "location": "DarkskySD.verifyTemp()"
 });
 formatter.result({
-  "duration": 567970941,
-  "error_message": "java.lang.AssertionError: THE BREAKFAST EVENT VARIFICATION FAILED expected [Breakfast] but found []\n\tat org.testng.Assert.fail(Assert.java:93)\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\n\tat org.testng.Assert.assertEquals(Assert.java:115)\n\tat org.testng.Assert.assertEquals(Assert.java:189)\n\tat stepdefinition.MostActionsSD.iVerifyEventDisplayed(MostActionsSD.java:33)\n\tat ✽.Then I verify Event displayed with header, Duration, description(mostactions.feature:24)\n",
-  "status": "failed"
+  "duration": 347121449,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 3197921389,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2243421539,
+  "status": "passed"
+});
+formatter.background({
+  "line": 5,
+  "name": "Given I am on Darksky home page",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "Verify Time Machine Calendar",
+  "description": "",
+  "id": "homepage-verifications;verify-time-machine-calendar",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 16,
+      "name": "@Darksky-3"
+    }
+  ]
+});
+formatter.step({
+  "line": 18,
+  "name": "I click on Time Machine",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 19,
+  "name": "I verify date is selected to todays date",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DarkskySD.iclickOnTimeMachine()"
+});
+formatter.result({
+  "duration": 475567631,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DarkskySD.verifyTodayDateIsSelected()"
+});
+formatter.result({
+  "duration": 109185609,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 3147720113,
+  "status": "passed"
 });
 });

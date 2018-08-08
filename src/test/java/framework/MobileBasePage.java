@@ -106,7 +106,7 @@ public class MobileBasePage {
         return false;
     }
 
-    enum DIRECTION {UP, DOWN, LEFT, RIGHT}
+   public enum DIRECTION {UP, DOWN, LEFT, RIGHT}
 
     public void swipe(AppiumDriver driver, DIRECTION direction, long duration) {
         Dimension size = AppiumWrapper.getAppiumDriver().manage().window().getSize();

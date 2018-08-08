@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "html:target/site/cucumber-pretty"},
 
         features = {"src/test/resources/features"},
-        tags = {"@mobile-mostactions-3"},
+        tags = {"@Darksky"},
         glue = {"stepdefinition"}
 )
 

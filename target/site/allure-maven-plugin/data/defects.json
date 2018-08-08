@@ -3,19 +3,19 @@
     "title" : "Product defects",
     "status" : "FAILED",
     "defects" : [ {
-      "uid" : "ab5657d9755f032b",
+      "uid" : "d3cdec9cc56cd989",
       "failure" : {
         "message" : "AssertionError: THE BREAKFAST EVENT VARIFICATION FAILED expected [Breakfast] but found []",
         "stackTrace" : "java.lang.AssertionError: THE BREAKFAST EVENT VARIFICATION FAILED expected [Breakfast] but found []\n\tat org.testng.Assert.fail(Assert.java:93)\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\n\tat org.testng.Assert.assertEquals(Assert.java:115)\n\tat org.testng.Assert.assertEquals(Assert.java:189)\n\tat stepdefinition.MostActionsSD.iVerifyEventDisplayed(MostActionsSD.java:33)\n\tat ✽.Then I verify Event displayed with header, Duration, description(mostactions.feature:24)\n"
       },
       "testCases" : [ {
-        "uid" : "82fd6b65b932c8aa",
+        "uid" : "ed168c143e59df0a",
         "name" : "Then I verify Event displayed with header, Duration, description",
         "title" : "Then I verify Event displayed with header, Duration, description",
         "time" : {
-          "start" : 1533653481950,
-          "stop" : 1533653481961,
-          "duration" : 11
+          "start" : 1533665708797,
+          "stop" : 1533665708806,
+          "duration" : 9
         },
         "severity" : "NORMAL",
         "status" : "FAILED"
