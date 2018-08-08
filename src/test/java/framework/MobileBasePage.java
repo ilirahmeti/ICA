@@ -9,11 +9,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
-import static framework.AllureUtil.takeMobileScreenshot;
+import static utility.AllureUtil.takeMobileScreenshot;
 
 public class MobileBasePage {
 

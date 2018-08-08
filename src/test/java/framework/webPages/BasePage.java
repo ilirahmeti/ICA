@@ -1,11 +1,10 @@
-package framework;
+package framework.webPages;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
+import utility.AllureUtil;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import stepdefinition.SharedSD;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -19,11 +18,23 @@ import java.util.regex.Pattern;
 public class BasePage extends SharedSD {
 
     public static void clickOn(By locator) {
-        browser(locator).click();
+        try {
+            browser(locator).click();
+        } catch (Exception e) {
+            AllureUtil.takeMobileScreenshot();
+            e.printStackTrace();
+        }
     }
 
     public static String getText(By locator) {
-        return browser(locator).getText();
+        String text = null;
+        try {
+          text = browser(locator).getText();
+        } catch (Exception e) {
+            AllureUtil.takeMobileScreenshot();
+            e.printStackTrace();
+        }
+        return text;
     }
 
     public static WebElement browser(final By locator) {
