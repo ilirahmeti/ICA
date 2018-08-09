@@ -1,4 +1,4 @@
-package utility;
+package util;
 
 import framework.AppiumWrapper;
 import org.openqa.selenium.OutputType;
@@ -22,8 +22,7 @@ public class AllureUtil {
      * This method is used to take screenshot in mobile and attach it to allure report
      */
     public static void takeMobileScreenshot() {
-        final byte[] screenshot = ((TakesScreenshot) AppiumWrapper.getAppiumDriver())
-                .getScreenshotAs(OutputType.BYTES);
+        final byte[] screenshot = ((TakesScreenshot)AppiumWrapper.getAppiumDriver()).getScreenshotAs(OutputType.BYTES);
         AllureUtil.attachScreenshot(screenshot);
     }
 }

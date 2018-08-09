@@ -1,17 +1,17 @@
 {
   "time" : {
-    "start" : 1533665705680,
-    "stop" : 1533665708806,
-    "duration" : 3126
+    "start" : 1533837435563,
+    "stop" : 1533837438658,
+    "duration" : 3095
   },
   "testSuites" : [ {
-    "uid" : "2ac1141cd16d2c1a",
+    "uid" : "8eac09734a5fbcde",
     "name" : "Verify user should be able to search for event",
     "title" : "Verify user should be able to search for event",
     "time" : {
-      "start" : 1533665705680,
-      "stop" : 1533665708806,
-      "duration" : 3126
+      "start" : 1533837435563,
+      "stop" : 1533837438658,
+      "duration" : 3095
     },
     "statistic" : {
       "total" : 4,
@@ -23,46 +23,46 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "590cc15a62cb5c78",
+      "uid" : "abe700f7e7888157",
       "name" : "Given I am on a splash page of the app",
       "title" : "Given I am on a splash page of the app",
       "time" : {
-        "start" : 1533665705680,
-        "stop" : 1533665705682,
+        "start" : 1533837435563,
+        "stop" : 1533837435565,
         "duration" : 2
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "cc585ae62b0f015b",
+      "uid" : "45d069e4d3d5ece2",
       "name" : "When I click on Skip button on splash screen",
       "title" : "When I click on Skip button on splash screen",
       "time" : {
-        "start" : 1533665705838,
-        "stop" : 1533665705839,
-        "duration" : 1
+        "start" : 1533837435764,
+        "stop" : 1533837435764,
+        "duration" : 0
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "1e28e52f5a5564dc",
+      "uid" : "7061d729226cdd70",
       "name" : "When Search for \"Breakfast\"",
       "title" : "When Search for \"Breakfast\"",
       "time" : {
-        "start" : 1533665708246,
-        "stop" : 1533665708247,
-        "duration" : 1
+        "start" : 1533837438061,
+        "stop" : 1533837438061,
+        "duration" : 0
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "ed168c143e59df0a",
+      "uid" : "f3816c2ba1cf84a0",
       "name" : "Then I verify Event displayed with header, Duration, description",
       "title" : "Then I verify Event displayed with header, Duration, description",
       "time" : {
-        "start" : 1533665708797,
-        "stop" : 1533665708806,
-        "duration" : 9
+        "start" : 1533837438639,
+        "stop" : 1533837438658,
+        "duration" : 19
       },
       "severity" : "NORMAL",
       "status" : "FAILED"

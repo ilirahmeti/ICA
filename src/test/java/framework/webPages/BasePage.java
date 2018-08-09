@@ -1,11 +1,11 @@
 package framework.webPages;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import utility.AllureUtil;
+import stepdefinition.SharedSD;
+import util.AllureUtil;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import stepdefinition.SharedSD;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;

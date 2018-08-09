@@ -11,7 +11,7 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
-import static utility.AllureUtil.takeMobileScreenshot;
+import static util.AllureUtil.takeMobileScreenshot;
 
 public class MobileBasePage {
 

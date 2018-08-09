@@ -1,4 +1,4 @@
-@mobile-regression @mobile-slideSplashScreen
+@mobile-regression @mobile-slideSplashScreen @mobile
 
   Feature: Slide the Splash screen
 

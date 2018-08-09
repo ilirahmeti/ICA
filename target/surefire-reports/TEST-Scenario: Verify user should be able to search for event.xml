@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Verify user should be able to search for event" time="0.041" tests="1" errors="0" skipped="0" failures="1">
+<testsuite name="Scenario: Verify user should be able to search for event" time="0.068" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib"/>
@@ -63,10 +63,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I am on a splash page of the app" classname="Scenario: Verify user should be able to search for event" time="0.032"/>
+  <testcase name="Given I am on a splash page of the app" classname="Scenario: Verify user should be able to search for event" time="0.051"/>
   <testcase name="When I click on Skip button on splash screen" classname="Scenario: Verify user should be able to search for event" time="0.001"/>
-  <testcase name="When Search for &quot;Breakfast&quot;" classname="Scenario: Verify user should be able to search for event" time="0.001"/>
-  <testcase name="Then I verify Event displayed with header, Duration, description" classname="Scenario: Verify user should be able to search for event" time="0.007">
+  <testcase name="When Search for &quot;Breakfast&quot;" classname="Scenario: Verify user should be able to search for event" time="0"/>
+  <testcase name="Then I verify Event displayed with header, Duration, description" classname="Scenario: Verify user should be able to search for event" time="0.016">
     <failure message="THE BREAKFAST EVENT VARIFICATION FAILED expected [Breakfast] but found []" type="java.lang.AssertionError">java.lang.AssertionError: THE BREAKFAST EVENT VARIFICATION FAILED expected [Breakfast] but found []
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)

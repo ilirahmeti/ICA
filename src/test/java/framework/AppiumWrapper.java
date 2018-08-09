@@ -11,12 +11,12 @@ import java.util.concurrent.TimeUnit;
 
 public class AppiumWrapper {
 
+    private static AppiumDriver appiumDriver;
+
     private static void initializeAppiumDriver(){
         appiumDriver = buildAppium();
-        appiumDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        appiumDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
-
-    private static AppiumDriver appiumDriver;
 
     private static AppiumDriver buildAppium(){
         AppiumDriver appiumDriver = null;

@@ -1,4 +1,4 @@
-@mobile-regression @mobile-mostactions
+@mobile-regression @mobile-mostactions @mobile
 
 Feature: Verify Home Page Features
 

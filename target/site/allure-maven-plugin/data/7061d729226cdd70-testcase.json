@@ -1,11 +1,11 @@
 {
-  "uid" : "cc585ae62b0f015b",
-  "name" : "When I click on Skip button on splash screen",
-  "title" : "When I click on Skip button on splash screen",
+  "uid" : "7061d729226cdd70",
+  "name" : "When Search for \"Breakfast\"",
+  "title" : "When Search for \"Breakfast\"",
   "time" : {
-    "start" : 1533665705838,
-    "stop" : 1533665705839,
-    "duration" : 1
+    "start" : 1533837438061,
+    "stop" : 1533837438061,
+    "duration" : 0
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "2ac1141cd16d2c1a",
+    "uid" : "8eac09734a5fbcde",
     "name" : "Verify user should be able to search for event",
     "title" : "Verify user should be able to search for event"
   },
@@ -40,14 +40,14 @@
     "name" : "suite-name",
     "value" : "Verify user should be able to search for event"
   }, {
+    "name" : "thread",
+    "value" : "96330@ilirs-MacBook-Pro-2.local.main(1)"
+  }, {
     "name" : "suite-title",
     "value" : "Verify user should be able to search for event"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"
-  }, {
-    "name" : "thread",
-    "value" : "81987@ilirs-MacBook-Pro-2.local.main(1)"
   } ],
   "parameters" : [ ]
 }
